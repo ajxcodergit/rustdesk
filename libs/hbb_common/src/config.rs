@@ -101,7 +101,7 @@ const CHARS: &[char] = &[
     'm', 'n', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z',
 ];
 
-pub const RENDEZVOUS_SERVERS: &[&str] = &["http://ajxremoto.ddns.net"];
+pub const RENDEZVOUS_SERVERS: &[&str] = &["ajxremoto.ddns.net"];
 pub const PUBLIC_RS_PUB_KEY: &str = "UGva2g0279gYAJDYlmACY202IhKWiDY82x+obiw04dU=";
 
 pub const RS_PUB_KEY: &str = match option_env!("RS_PUB_KEY") {
